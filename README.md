@@ -9,7 +9,7 @@ Dentro del video se visualiza un poco la forma en la que este CRUD funciona y se
 
 CREACIÓN: Para la cración se utilizaron formularios con metodo POST que enviavan los datos ingresados a un archivo.php donde se ejecutaba la parte del manejo de la base de datos. El archivo.php recibia los datos y tras realizar las validaciones ejecutaba comandos SQL de INSERT con la finalidad de agregar esos datos a sus respectivas tablas.
 
-READ: En el caso de la lectura o consulta de datos se cargaban los datos necesarios en cada sección a través de PHP con comandos SQL y posteriormente se agregaban al html a través de bucles o iteraciones  (Por ejemplo, para la tabla principal de ventas se cargaron los datos usando un comando Join para unir los datos necesarios de cada una de las tablas y luego se itereró sobre un table para poder visualizar cada uno de los datos.
+READ: En el caso de la lectura o consulta de datos se cargaban los datos necesarios en cada sección a través de PHP con comandos SQL y posteriormente se agregaban al html a través de bucles o iteraciones  (Por ejemplo, para la tabla principal de ventas se cargaron los datos usando un comando Join para unir los datos necesarios de cada una de las tablas y luego se iteró sobre un table para poder visualizar cada uno de los datos.
 
 UPDATE: En el caso de modificaciones o ediciones de registros se utilizaba GET para obtener la ID especifica ya sea de la venta, producto o del mismo cliente, con la finalidad de ejecutar una consulta SQL utilizando como condicional la existencia de la ID obtenida en el registro
 
